@@ -10,7 +10,11 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("{0,-10:E3}", 12.3456789);
+            char ch;
+            Console.Write("Press a key followed by ENTER:");
+            ch = (char)Console.Read();  // get a char
+            Console.WriteLine("Your key is: " + ch);
+
         }
     }
 }
