@@ -1,3 +1,4 @@
 ﻿1>------ Build started: Project: Lab, Configuration: Debug Any CPU ------
+1>C:\Users\Administrator\source\repos\o\Week04\Lab\Lab\Program.cs(13,17,13,18): warning CS0219: The variable 'n' is assigned but its value is never used
 1>  Lab -> C:\Users\Administrator\source\repos\o\Week04\Lab\Lab\bin\Debug\Lab.exe
 ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
