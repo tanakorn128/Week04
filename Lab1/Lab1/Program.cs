@@ -10,11 +10,21 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            string str;
-            Console.Write("Please enter value 1 : ");
-            int val1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(val1);
+            string name, Lastname;
+            Console.WriteLine("Enter your name");
+            name = Console.ReadLine();
+            Console.WriteLine("Enter your lastname");
+            Lastname = Console.ReadLine();
+            Console.WriteLine("ID Student");
+            double student = double.Parse(Console.ReadLine());
+            Console.WriteLine("GPA");
+
+           
+            int GPA =in.Parse(Console.ReadLine());
+            Console.WriteLine("name : {0} {1}" , name,Lastname);
+            Console.WriteLine("ID : {0} ", student);
+            Console.WriteLine("{0:F2}",GPA);
 
         }
-    }
+        }
 }
