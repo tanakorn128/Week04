@@ -1,1 +1,3 @@
-﻿
+﻿1>------ Build started: Project: Lab03, Configuration: Debug Any CPU ------
+1>  Lab03 -> C:\Users\Administrator\Source\Repos\Week04\Lab03\Lab03\bin\Debug\Lab03.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
