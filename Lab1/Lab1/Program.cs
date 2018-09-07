@@ -19,11 +19,10 @@ namespace Lab1
             double student = double.Parse(Console.ReadLine());
             Console.WriteLine("GPA");
 
-           
-            int GPA =in.Parse(Console.ReadLine());
+            double GPA = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("name : {0} {1}" , name,Lastname);
             Console.WriteLine("ID : {0} ", student);
-            Console.WriteLine("{0:F2}",GPA);
+            Console.WriteLine("{0,2:F2}",GPA);
 
         }
         }
