@@ -12,7 +12,7 @@ namespace Lab1
         {
             char ch;
             Console.Write("Press a key followed by ENTER:");
-            ch = (char)Console.Read();  // get a char
+            ch = (2)Console.Read();  // get a char
             Console.WriteLine("Your key is: " + ch);
 
         }
