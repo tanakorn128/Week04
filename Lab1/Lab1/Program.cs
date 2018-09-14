@@ -10,20 +10,20 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            string name, Lastname;
-            Console.WriteLine("Enter your name");
-            name = Console.ReadLine();
-            Console.WriteLine("Enter your lastname");
-            Lastname = Console.ReadLine();
-            Console.WriteLine("ID Student");
-            double student = double.Parse(Console.ReadLine());
-            Console.WriteLine("GPA");
-
-            double GPA = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("name : {0} {1}" , name,Lastname);
-            Console.WriteLine("ID : {0} ", student);
-            Console.WriteLine("{0,2:F2}",GPA);
+            bool A, B, Y;
+            Console.WriteLine(" Y = NOT B");
+            Console.WriteLine("-----------------------");
+            Console.WriteLine(" A         Y");
+            Console.WriteLine("-----------------------");
+            A = false; B = false; Y = A ^ B; Y = (A && !B) || (!A && B);
+            Console.WriteLine( "{0} {1} {2}",A,B,Y);
+            A = false; B = true; Y = A ^ B; Y = (A && !B) || (!A && B);
+            Console.WriteLine("{0} {1} {2}", A, B, Y);
+            A = true; B = false; Y = A ^ B; Y = (A && !B) || (!A && B);
+            Console.WriteLine("{0} {1} {2}", A, B, Y);
+            A = true; B = true; Y = A ^ B; Y = (A && !B) || (!A && B);
+            Console.WriteLine("{0} {1} {2}", A, B, Y);
 
         }
-        }
+    }
 }
