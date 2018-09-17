@@ -15,14 +15,14 @@ namespace Lab1
             Console.WriteLine("-----------------------");
             Console.WriteLine(" A         Y");
             Console.WriteLine("-----------------------");
-            A = false; B = false; Y = A ^ B; Y = (A && !B) || (!A && B);
-            Console.WriteLine( "{0} {1} {2}",A,B,Y);
-            A = false; B = true; Y = A ^ B; Y = (A && !B) || (!A && B);
-            Console.WriteLine("{0} {1} {2}", A, B, Y);
-            A = true; B = false; Y = A ^ B; Y = (A && !B) || (!A && B);
-            Console.WriteLine("{0} {1} {2}", A, B, Y);
-            A = true; B = true; Y = A ^ B; Y = (A && !B) || (!A && B);
-            Console.WriteLine("{0} {1} {2}", A, B, Y);
+            A = false; B = false; Y = A ^ B; 
+            Console.WriteLine(" {0} {1} {2}",A,B,Y);
+            A = false; B = true; Y = A ^ B; 
+            Console.WriteLine(" {0} {1} {2}", A, B, Y);
+            A = true;  B = false; Y = A ^ B; 
+            Console.WriteLine(" {0} {1} {2}", A, B, Y);
+            A = true;  B = true; Y = A ^ B;
+            Console.WriteLine(" {0} {1} {2}", A, B, Y);
 
         }
     }
